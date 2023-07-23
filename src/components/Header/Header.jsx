@@ -1,5 +1,6 @@
 import React from "react";
 import css from "./Header.module.scss";
+import { BiPhoneCall } from "react-icons/bi";
 
 const Header = () => {
   return (
@@ -9,19 +10,20 @@ const Header = () => {
 
         <ul>
           <li>
-            <a href=""></a>
+            <a href="">SERVICES</a>
           </li>
           <li>
-            <a href=""></a>
+            <a href="">EXPERIENCE</a>
           </li>
           <li>
-            <a href=""></a>
+            <a href="">PORTFOLIO</a>
           </li>
           <li>
-            <a href=""></a>
+            <a href="">TESTIMONIALS</a>
           </li>
           <li>
-            <a href=""></a>
+            <p>+989113191788</p>
+            <BiPhoneCall size={"40px"} />
           </li>
         </ul>
       </div>
