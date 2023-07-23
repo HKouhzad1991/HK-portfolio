@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./Header.module.scss";
-import { BiPhoneCall } from "react-icons/bi";
+import {BiPhoneCall} from "react-icons/bi";
 
 const Header = () => {
   return (
