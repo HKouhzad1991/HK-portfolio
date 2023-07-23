@@ -1,12 +1,14 @@
-import React from 'react'
-import  css from "./Header.module.scss"
+import React from "react";
+import css from "./Header.module.scss";
 
 const Header = () => {
   return (
-    <div>
-      Header
+    <div className={css.wrapper}>
+      <div className={css.container}>
+        <div className={css.name}>Hossein Kouhzad</div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
