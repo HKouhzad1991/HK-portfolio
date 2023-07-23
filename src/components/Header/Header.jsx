@@ -3,9 +3,27 @@ import css from "./Header.module.scss";
 
 const Header = () => {
   return (
-    <div className={css.wrapper}>
-      <div className={css.container}>
+    <div className={`paddings ${css.wrapper}`}>
+      <div className={"flexCenter innerWidth ${css.container}"}>
         <div className={css.name}>Hossein Kouhzad</div>
+
+        <ul>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+        </ul>
       </div>
     </div>
   );
