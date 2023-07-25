@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./Header.module.scss";
-import { BiPhoneCall } from "react-icons/bi";
+import { BiMenuAltRight, BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { headerVariants } from "../../utils/motion";
 
@@ -32,6 +32,9 @@ const Header = () => {
             <BiPhoneCall size={"40px"} />
           </li>
         </ul>
+        <div className={css.menuIcon}>
+          <BiMenuAltRight size={30} />
+        </div>
       </div>
     </motion.div>
   );
