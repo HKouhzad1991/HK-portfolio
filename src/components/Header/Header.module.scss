@@ -4,10 +4,24 @@
   opacity: 1;
   transform: none;
   position: sticky;
+  top: 0;
+  transition: all 300ms ease;
 
-  .container {
+  .container{
     position: relative;
     justify-content: space-between;
     font-weight: 500;
+
+    .name {
+      font-size: 15rem;
+      font-weight: 500;
+    }
+
+    .menu {
+      font-size: 10rem;
+      list-style: none;
+      gap: 15rem;
+      cursor: pointer;
+    }
   }
 }

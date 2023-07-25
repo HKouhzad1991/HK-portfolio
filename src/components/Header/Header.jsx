@@ -1,14 +1,17 @@
 import React from "react";
 import css from "./Header.module.scss";
-import {BiPhoneCall} from "react-icons/bi";
+import { BiPhoneCall } from "react-icons/bi";
 
 const Header = () => {
   return (
     <div className={`paddings ${css.wrapper}`}>
+      
       <div className={"flexCenter innerWidth ${css.container}"}>
-        <div className={css.name}>Hossein Kouhzad</div>
+        <div className={css.name}>
+          Hossein-Kouhzad
+        </div>
 
-        <ul>
+        <ul className={"flexCenter ${css.menu}"}>
           <li>
             <a href="">SERVICES</a>
           </li>
