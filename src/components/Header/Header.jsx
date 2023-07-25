@@ -7,9 +7,10 @@ import { headerVariants } from "../../utils/motion";
 const Header = () => {
   return (
     <motion.div
-      initial="hissen"
+      initial="hidden"
       whileInView="show"
       variants={headerVariants}
+      viewport={{ once: false, amount: 0.25 }}
       className={`paddings ${css.wrapper}`}>
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>Hossein kouhzad</div>
