@@ -2,10 +2,15 @@ import React from "react";
 import css from "./Header.module.scss";
 import { BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
+import { headerVariants } from "../../utils/motion";
 
 const Header = () => {
   return (
-    <div className={`paddings ${css.wrapper}`}>
+    <motion.div
+      initial="hissen"
+      whileInView="show"
+      variants={headerVariants}
+      className={`paddings ${css.wrapper}`}>
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>Hossein kouhzad</div>
         <ul className={`flexCenter ${css.menu}`}>
@@ -27,7 +32,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
