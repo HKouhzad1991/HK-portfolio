@@ -1,4 +1,4 @@
-@import "./../../styles/contants.scss";
+@import "../../styles/contants.scss";
 
 .wrapper {
   position: relative;
@@ -16,7 +16,7 @@
 
     .name {
       font-size: 1.5rem;
-      font-weight: 500;
+      font-weight: 700;
     }
 
     .menu {
@@ -25,6 +25,18 @@
       list-style: none;
       gap: 1.5rem;
       cursor: pointer;
+
+      li {
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        &:hover {
+          color: $secondary;
+          scale: 1.1;
+        }
+      }
     }
   }
 }
