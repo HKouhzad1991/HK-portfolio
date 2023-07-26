@@ -24,7 +24,8 @@ const Hero = () => {
             variants={fadeIn("left", "tween", 0.4, 1)}>
             I design beautiful simple
             <br />
-            things, And I love what i do{" "}
+            Things, And I love my job
+            <br /> Front End Developer
           </motion.span>
         </div>
 
@@ -36,10 +37,10 @@ const Hero = () => {
             src="./person.png"
             alt=""
           />
-              </motion.div>
-              <div className={css.gitIcon}>
-              <img src="./github-purple.svg" alt="" />
-              </div>
+        </motion.div>
+        <div className={css.gitIcon}>
+          <img src="./github-purple.svg" alt="" />
+        </div>
         <a className={css.github} href="https://github.com/HKouhzad1991">
           https://github.com/HKouhzad1991
         </a>
