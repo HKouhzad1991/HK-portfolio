@@ -18,7 +18,7 @@ const Header = () => {
       className={`paddings ${css.wrapper}`}
       style={{ boxShadow: headerShadow }}>
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>Hossein kouhzad</div>
+        <div className={css.name}>Hossein Kouhzad</div>
         <ul
           style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}>
@@ -35,7 +35,7 @@ const Header = () => {
             <a href="#people">Testimonials</a>
           </li>
           <li className={`flexCenter ${css.phone}`}>
-            <p>+001 (313) 345 678</p>
+            <p>+98-9113191788</p>
             <BiPhoneCall size={"40px"} />
           </li>
         </ul>
