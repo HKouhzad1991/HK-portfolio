@@ -38,17 +38,17 @@ const Hero = () => {
             alt=""
           />
         </motion.div>
-        <div className={css.gitIcon}>
-          <img src="./github-purple.svg" alt="" />
-        </div>
-        <a className={css.github} href="https://github.com/HKouhzad1991">
-          https://github.com/HKouhzad1991
-        </a>
-
-        <a className={css.email} href="mailto:hosseinkouhzad2017@gmail.com">
-          hosseinkouhzad2017@gmail.com
-        </a>
-
+        <motion.div variants={fadeIn("right", "tween", 0.5, 0.1)}>
+          <div className={css.gitIcon}>
+            <img src="./github-purple.svg" alt="" />
+          </div>
+          <a className={css.github} href="https://github.com/HKouhzad1991">
+            https://github.com/HKouhzad1991
+          </a>
+          <a className={css.email} href="mailto:hosseinkouhzad2017@gmail.com">
+            hosseinkouhzad2017@gmail.com
+          </a>
+        </motion.div>
         <div className={css.lowerElements}>
           <motion.div
             variants={fadeIn("right", "tween", 0.3, 1)}
