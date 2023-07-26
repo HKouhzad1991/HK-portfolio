@@ -103,6 +103,7 @@
     .gitIcon {
       display: flex;
       flex-direction: column;
+      flex-wrap: wrap;
 
       img {
         position: relative;
