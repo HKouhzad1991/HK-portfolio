@@ -3,6 +3,7 @@ import css from "./Header.module.scss";
 import { BiMenuAltRight, BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
+import useHeaderShadow from "../../hooks/useHeaderShadow";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -14,7 +15,9 @@ const Header = () => {
       whileInView="show"
       variants={headerVariants}
       viewport={{ once: false, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}>
+      className={`paddings ${css.wrapper}`}
+    style={{boxShadow: headerShadow}}
+    >
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>Hossein kouhzad</div>
         <ul
