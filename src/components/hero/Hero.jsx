@@ -19,10 +19,18 @@ const Hero = () => {
         {/* lower elements */}
 
         <div className={css.lowerElements}>
-                  <div className={css.experience}>
-                  
-                  </div>
-          <div className={css.certificate}></div>
+          <div className={css.experience}>
+            <div className="primaryText">10</div>
+            <div className="secondaryText">
+              <div>Years</div>
+              <div>Experience</div>
+            </div>
+          </div>
+          <div className={css.certificate}>
+            <img src="./certificate.png" alt="" />
+            <div>CERTIFIED PROFATIONAL </div>
+            <div>UI/UX DESIGNER</div>
+          </div>
         </div>
       </div>
     </section>
