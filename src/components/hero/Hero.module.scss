@@ -93,7 +93,7 @@
       color: rgb(124, 98, 227);
       font-size: 1.1rem;
       font-weight: 500;
-      @media (max-width: $sm),(max-width: $md) {
+      @media (max-width: $sm), (max-width: $md) {
         font-size: 1rem;
         display: flex;
         justify-content: center;
@@ -109,12 +109,16 @@
         left: 6rem;
         margin-top: 0.5rem;
         width: 4.5rem;
-        @media (max-width: $sm) {
+        @media (max-width: $sm), (max-width: $md) {
           width: 4rem;
+          position: relative;
           display: flex;
           left: 8rem;
           margin-top: 4rem;
-          
+          justify-content: center;
+          justify-items: center;
+          align-items: center;
+          left: 15rem;
         }
       }
     }
