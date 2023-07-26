@@ -6,6 +6,7 @@ import { getMenuStyles, headerVariants } from "../../utils/motion";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
+  const headerShadow = useHeaderShadow();
 
   return (
     <motion.div
@@ -17,7 +18,7 @@ const Header = () => {
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>Hossein kouhzad</div>
         <ul
-        style={getMenuStyles(menuOpened)}
+          style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}>
           <li>
             <a href="#experties">Services</a>
@@ -39,7 +40,7 @@ const Header = () => {
         {/* for medium and small screens */}
         <div
           className={css.menuIcon}
-          onClick={()=>setMenuOpened((prev) => !prev)}>
+          onClick={() => setMenuOpened((prev) => !prev)}>
           <BiMenuAltRight size={30} />
         </div>
       </div>
