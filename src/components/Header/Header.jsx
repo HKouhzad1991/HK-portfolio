@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { headerVariants } from "../../utils/motion";
 
 const Header = () => {
+  const [menuOpened, setMenuOpened] = useState(false);
+
   return (
     <motion.div
       initial="hidden"
