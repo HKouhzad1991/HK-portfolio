@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import css from "./Header.module.scss";
 import { BiMenuAltRight, BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
-import { headerVariants } from "../../utils/motion";
+import { getMenuStyles, headerVariants } from "../../utils/motion";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -16,7 +16,9 @@ const Header = () => {
       className={`paddings ${css.wrapper}`}>
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>Hossein kouhzad</div>
-        <ul className={`flexCenter ${css.menu}`}>
+        <ul
+        style={getMenuStyles(menuOpened)}
+          className={`flexCenter ${css.menu}`}>
           <li>
             <a href="#experties">Services</a>
           </li>
