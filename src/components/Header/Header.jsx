@@ -25,6 +25,7 @@ const Header = () => {
       <div className={`innerWidth ${css.container} flexCenter`}>
         <div className={css.name}>Hossein Kouhzad</div>
         <ul
+          ref={menuRef}
           style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}>
           <li>
