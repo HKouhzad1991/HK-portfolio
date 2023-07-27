@@ -22,10 +22,10 @@ const Hero = () => {
           <motion.span
             className="secondaryText"
             variants={fadeIn("left", "tween", 0.4, 1)}>
-            I design beautiful simple
+            I Design Beautiful Simple
             <br />
-            Things, And I love my job
-            <br /> Front End Developer
+            Things, And I love My Job
+            <br /> As A Front End Developer
           </motion.span>
         </div>
 
@@ -53,18 +53,20 @@ const Hero = () => {
           <motion.div
             variants={fadeIn("right", "tween", 0.3, 1)}
             className={css.experience}>
-            <div className="primaryText">10</div>
+            <img src="./HTML.svg" alt="" />
+            <img src="./CSS.svg" alt="" />
+            <img src="./JavaScript.svg" alt="" />
+            <div className="primaryText"></div>
             <div className="secondaryText">
-              <div>Years</div>
-              <div>Experience</div>
+              
             </div>
           </motion.div>
 
           <motion.div
             variants={fadeIn("left", "tween", 0.5, 1)}
             className={css.certificate}>
-            <img src="./certificate.png" alt="" />
-            <span>CERTIFIED PROFATIONAL</span>
+            <img src="./react-logo-svg-vector.svg" alt="" />
+            <span>REACT.JS</span>
             <span>UI/UX DESIGNER</span>
           </motion.div>
         </div>
