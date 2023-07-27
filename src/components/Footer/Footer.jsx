@@ -19,8 +19,8 @@ const Footer = () => {
             amazing together.
           </span>
           <span className="primaryText">
-            Start by{" "}
-            <a href="mailto:hosseinkouhzad2017@gmail.com">Hoosein kouhzad</a>
+            Start by
+            <a href="mailto:hosseinkouhzad2017@gmail.com"> Hossein kouhzad</a>
           </span>
         </div>
 
