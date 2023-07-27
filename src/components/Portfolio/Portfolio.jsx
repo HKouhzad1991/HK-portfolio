@@ -45,7 +45,7 @@ const Portfolio = () => {
           <a
             className="project-links"
             href="https://hosseinkouhzad-fitclub.netlify.app/">
-            FitClub app
+           
           </a>
           <motion.img
             variants={fadeIn("up", "tween", 0.9, 0.6)}
