@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import People from "./components/People/People";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Hero from "./components/hero/Hero";
+import Footer from "./components/Footer/Footer";
 import css from "./styles/app.module.scss";
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Experties />
       <Portfolio />
       <People />
+      <Footer />
     </div>
   );
 };
