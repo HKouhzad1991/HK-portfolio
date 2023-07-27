@@ -8,7 +8,7 @@
         .experiences {
             width: 100%;
             flex-direction: column;
-            gap: 1.4rem;
+            gap: 3rem;
             position: relative;
 
             .exp {
@@ -37,7 +37,7 @@
                 .line {
                     position: absolute;
                     height: 92%;
-                    width: 2px;
+                    width: 3px;
                     background-image: linear-gradient(black 33%, rgba(255, 255, 255, 0) 0%);
                     background-position: right;
                     background-size: 2px 30px;

@@ -9,10 +9,11 @@ import useOutssideAlerter from "../../hooks/useOutsideAlerter";
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
-  const menuRef =useRef()
+  const menuRef = useRef();
 
   useOutssideAlerter({
-    menuRef , setMenuOpened
+    menuRef,
+    setMenuOpened,
   });
   return (
     <motion.div
@@ -29,10 +30,7 @@ const Header = () => {
           style={getMenuStyles(menuOpened)}
           className={`flexCenter ${css.menu}`}>
           <li>
-            <a href="#experties">Services</a>
-          </li>
-          <li>
-            <a href="#work">Experience</a>
+            <a href="#work">Expertise</a>
           </li>
           <li>
             <a href="#portfolio">Portfolio</a>

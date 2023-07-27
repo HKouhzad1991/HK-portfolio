@@ -1,4 +1,3 @@
-import Experties from "./components/Experties/Experties";
 import Header from "./components/Header/Header";
 import People from "./components/People/People";
 import Portfolio from "./components/Portfolio/Portfolio";
@@ -11,7 +10,6 @@ const App = () => {
     <div className={`bg-primary ${css.container}`}>
       <Header />
       <Hero />
-      <Experties />
       <Work />
       <Portfolio />
       <People />

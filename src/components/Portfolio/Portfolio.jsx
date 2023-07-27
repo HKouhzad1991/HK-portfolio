@@ -33,7 +33,7 @@ const Portfolio = () => {
         <div className={`flexCenter ${css.showCase}`}>
           <motion.img
             variants={fadeIn("up", "tween", 0.5, 0.6)}
-            src="./showCase1.png"
+            src="./Honeyview_skincare.png"
             alt="project"
           />
 

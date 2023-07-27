@@ -29,25 +29,65 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    place: "My Expertise",
+    tenure: "",
+    role: "HTML5",
+    detail: "",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
+    place: "",
+    tenure: "",
+    role: "CSS3",
+    detail: "",
+  },
+  {
+    place: "",
+    tenure: "",
+    role: "JavaScript ES6",
+    detail: "",
+  },
+  {
+    place: "",
+    tenure: "",
+    role: "React.Js",
+    detail: "",
+  },
+  {
+    place: "",
+    tenure: "",
+    role: "Bootstrap",
+    detail: "",
+  },
+  {
+    place: "",
+    tenure: "",
+    role: "GitHub",
+    detail: "",
+  },
+  {
+    place: "",
+    tenure: "",
+    role: "Sass",
+    detail: "",
+  },
+  {
+    place: "",
+    tenure: "",
+    role: "PWA",
+    detail: "",
+  },
+  {
+    place: "",
+    tenure: "",
+    role: "RWD",
+    detail: "",
+  },
+
+  {
+    place: "",
+    tenure: "",
     role: "UI/UX Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
-  {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+    detail: " ",
   },
 ];
 

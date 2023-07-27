@@ -56,10 +56,6 @@ const Hero = () => {
             <img src="./HTML.svg" alt="" />
             <img src="./CSS.svg" alt="" />
             <img src="./JavaScript.svg" alt="" />
-            <div className="primaryText"></div>
-            <div className="secondaryText">
-              
-            </div>
           </motion.div>
 
           <motion.div
