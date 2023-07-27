@@ -12,10 +12,10 @@ const App = () => {
       <Header />
       <Hero />
       <Experties />
+      <Work />
       <Portfolio />
       <People />
       <Footer />
-      <Work />
     </div>
   );
 };

@@ -4,11 +4,16 @@ import { BiMenuAltRight, BiPhoneCall } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { getMenuStyles, headerVariants } from "../../utils/motion";
 import useHeaderShadow from "../../hooks/useHeaderShadow";
+import useOutssideAlerter from "../../hooks/useOutsideAlerter";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
+  
 
+  useOutssideAlerter({
+    menuRef , setMenuOpened
+  });
   return (
     <motion.div
       initial="hidden"
