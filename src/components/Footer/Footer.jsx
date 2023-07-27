@@ -27,7 +27,7 @@ const Footer = () => {
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>iran-mazandaran-sari</p>
+            <p>IRAN-Mazandaran , Sari</p>
           </div>
           <ul className={css.menu}>
             <li>Services</li>

@@ -1,7 +1,7 @@
 @import "../../styles/contants.scss";
 
 .wrapper {
-  background: white;
+  background:  rgba(124, 98, 227, 0.115);
   .container {
     gap: 2rem;
     @media (max-width: $sm) {
